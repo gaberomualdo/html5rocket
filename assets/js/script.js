@@ -11,7 +11,7 @@ window.onload = function(){
     // Add Template Links
     (function(){
         templatesList.forEach(function(item,index){
-            document.querySelector("div.mainDownloadArea").innerHTML += "<div class='template' style='--main-color: " + item[2] + ";'><a class='imageLink' href='https://html5rocket.github.io/" + item[1] + "'><img src='assets/img/templateHeroImages/" + item[1] + ".png'></a><div class='mainArea'><h1>" + item[0] + "</h1><ul class='links'><a class='demo' href='https://html5rocket.github.io/" + item[1] + "'>Live Demo</a><a href='assets/downloads/" + item[1] + ".zip' download>Free Download</a></ul></div></div>";
+            document.querySelector("div.mainDownloadArea").innerHTML += "<div class='template' style='--main-color: " + item[2] + ";'><a class='imageLink' href='https://html5rocket.github.io/" + item[1] + "'><img src='assets/img/templateHeroImages/" + item[1] + ".png'></a><div class='mainArea'><h1>" + item[0] + "</h1><ul class='links'><a class='demo' href='https://html5rocket.github.io/" + item[1] + "'>Live Demo</a><a href='assets/downloads/" + item[1] + ".zip' download><span>Free</span> Download</a></ul></div></div>";
         });
     })();
 }
