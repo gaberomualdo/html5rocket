@@ -144,20 +144,22 @@ div.wrapper div.mainDownloadArea div.template div.mainArea ul a.demo:hover {
         width: 100%;
         border: 1px solid #c7cbd4;
         border-top: none;
-        padding: 15px;
+        padding: 7.5px;
         position: relative;
         display: block;
         float: left;
     }
     div.wrapper div.mainDownloadArea div.template div.mainArea h1 {
-        font-size: 40px;
+        font-size: 25px;
         line-height: 47.5px;
-        padding-left: 3.75px;
+        padding: 7.5px;
+        padding-left: 11.25px;
         float: left;
     }
     div.wrapper div.mainDownloadArea div.template div.mainArea ul {
         margin: 0;
         float: right;
+        padding: 7.5px;
     }
 
     div.wrapper div.mainDownloadArea div.template div.mainArea ul a:not(.demo){
@@ -198,9 +200,10 @@ div.wrapper div.mainDownloadArea div.template div.mainArea ul a.demo:hover {
 @media only screen and (max-width: 1000px) {
     div.wrapper {
         width: 100%;
+        padding: 25px;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
     div.wrapper div.mainDownloadArea div.template div.mainArea ul a.demo {
         display: none;
     }
