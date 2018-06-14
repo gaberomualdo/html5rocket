@@ -129,6 +129,9 @@ div.wrapper div.mainDownloadArea div.template div.mainArea ul a.demo:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #fff;
 }
+div.wrapper div.mainDownloadArea div.template div.mainArea {
+    cursor: default;
+}
 @media only screen and (max-width: 809px) {
     div.wrapper header {
         text-align: center;
@@ -194,13 +197,11 @@ div.wrapper div.mainDownloadArea div.template div.mainArea ul a.demo:hover {
         bottom: 35%;
         left: 55%;
         color: white;
-        cursor: default;
     }
 }
 @media only screen and (max-width: 1000px) {
     div.wrapper {
         width: 100%;
-        padding: 25px;
     }
 }
 @media only screen and (max-width: 550px) {
@@ -209,5 +210,10 @@ div.wrapper div.mainDownloadArea div.template div.mainArea ul a.demo:hover {
     }
     div.wrapper div.mainDownloadArea div.template div.mainArea ul a:not(.demo) span {
         display: none;
+    }
+}
+@media only screen and (max-width: 650px) {
+    div.wrapper {
+        padding: 25px;
     }
 }
