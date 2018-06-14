@@ -68,7 +68,7 @@ div.wrapper header div.marketingArea li {
     font-size: 20px;
     line-height: 1;
     margin-bottom: 15px;
-    height: 30px;
+    line-height: 30px;
     padding-left: 40px;
     background-image: url(../img/check.png);
     background-size: 30px;
