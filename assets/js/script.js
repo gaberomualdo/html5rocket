@@ -1,5 +1,6 @@
 var templatesList = [
-    ["Me","Me","#1F3845"]
+    ["Me","Me","#1F3845"],
+    ["Soon","Soon","#0D1E35"]
 ];
 window.onload = function(){
     // Footer Copyright Year
