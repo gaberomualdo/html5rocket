@@ -216,5 +216,12 @@ div.wrapper div.mainDownloadArea div.template div.mainArea {
 @media only screen and (max-width: 650px) {
     div.wrapper {
         padding: 25px;
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 450px) {
+    div.wrapper {
+        padding: 10px;
+        padding-bottom: 0;
     }
 }
