@@ -224,4 +224,7 @@ div.wrapper div.mainDownloadArea div.template div.mainArea {
         padding: 10px;
         padding-bottom: 0;
     }
+    div.wrapper header h1 {
+        font-size: 40px;
+    }
 }
